@@ -1,0 +1,141 @@
+/* styles.css */
+
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Gaya untuk header */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #ccc;
+}
+
+/* Gaya untuk section */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk judul */
+h1, h2 {
+    color: #35424a;
+}
+
+/* Gaya untuk gambar profil */
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* Gaya untuk footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer bottom:hover{
+    color: dimgray;
+}
+
+/* Gaya untuk tombol */
+button {
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.hero {
+    background: url(salahiddin.jpg) no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    padding: 300px 600px;
+    /* text-align: center; */
+}
+
+button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #3c4e57;
+    color: #ccc;
+}
+
+/* Gaya untuk form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    align-self: flex-start;
+}
+/* Gaya untuk section tentang kami */
+#about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#about ul li {
+    margin: 10px 0;
+}
+
+#about ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#about ul li a:hover {
+    text-decoration: underline;
+    color: #ccc;
+}
